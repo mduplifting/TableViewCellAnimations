@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		66A021051C0259C1005650DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A021041C0259C1005650DB /* Default-568h@2x.png */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9CC8DEBE15519BD1949559C9 /* Pods_TableViewCellAnimations_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3644862B975D284F62986A9F /* Pods_TableViewCellAnimations_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63B3EE91B5E30CF37FD0CE5C /* TableViewCellAnimations.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TableViewCellAnimations.podspec; path = ../TableViewCellAnimations.podspec; sourceTree = "<group>"; };
+		66A021041C0259C1005650DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6B372E6C2E038FBE9C4A23F2 /* Pods_TableViewCellAnimations_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewCellAnimations_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		87EFEC9F02C8E203928E9DF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				66A021041C0259C1005650DB /* Default-568h@2x.png */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TableViewCellAnimations */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				66A021051C0259C1005650DB /* Default-568h@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -513,8 +517,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE3078879C652B086BB3E681 /* Pods-TableViewCellAnimations_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewCellAnimations/TableViewCellAnimations-Prefix.pch";
 				INFOPLIST_FILE = "TableViewCellAnimations/TableViewCellAnimations-Info.plist";
@@ -529,8 +533,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3C5BBC546504204204329A6 /* Pods-TableViewCellAnimations_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewCellAnimations/TableViewCellAnimations-Prefix.pch";
 				INFOPLIST_FILE = "TableViewCellAnimations/TableViewCellAnimations-Info.plist";

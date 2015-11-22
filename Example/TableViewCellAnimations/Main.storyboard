@@ -49,10 +49,13 @@
                             <constraint firstItem="mc9-rv-2Tx" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="-20" id="oNg-mL-fpx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="view" destination="TpU-gO-2f1" id="Wfe-zi-3qs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684" y="339"/>
+            <point key="canvasLocation" x="295" y="335"/>
         </scene>
     </scenes>
 </document>
