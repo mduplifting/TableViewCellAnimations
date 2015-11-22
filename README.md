@@ -34,9 +34,10 @@ Make sure to actually call `animate` in your willDisplayCell:
 ## Animations
 
 Currently, we support three different kinds of animations:
-  -Fade In
-  -Slide in from left/right/top/bottom
-  -Flip horizontally/vertically
+
+  -Fade In (`kASTableViewCellAnimationFadeIn`)
+  -Slide in from left/right/top/bottom (`kASTableViewCellAnimationSlideFromLeft`)
+  -Flip horizontally/vertically (`kASTableViewçellAnimationFlipHorizontally`)
 
 ## Requirements
 
