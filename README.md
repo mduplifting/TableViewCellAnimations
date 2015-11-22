@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+No requirements for this pod. Enjoy!
+
 ## Installation
 
 TableViewCellAnimations is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,7 +24,7 @@ pod "TableViewCellAnimations"
 
 ## Author
 
-Adam Suskin, adamsuskin@gmail.com
+Adam Suskin, adam@adamsuskin.com
 
 ## License
 
