@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TableViewCellAnimations: 817ab559adbace5f504809f6cfc138b54d54daa9
+  TableViewCellAnimations: 140639d10b17aa7c4ce0b4bacd090d6b4322d953
 
 COCOAPODS: 0.39.0

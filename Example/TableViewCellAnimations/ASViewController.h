@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-#import "ASTableViewCell.h"
+#import <TableViewCellAnimations/ASTableViewCell.h>
 
 @interface ASViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
