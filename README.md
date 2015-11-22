@@ -36,9 +36,15 @@ Currently, we support three different kinds of animations:
 
   -Fade In (`kASTableViewCellAnimationFadeIn`)
 
+![fade in animation](http://www.adamsuskin.com/wp-content/uploads/2015/11/Fade-In.gif)
+
   -Slide in from left/right/top/bottom (`kASTableViewCellAnimationSlideFromLeft`)
 
+![slide animation](http://www.adamsuskin.com/wp-content/uploads/2015/11/Slide-From-Left.gif)
+
   -Flip horizontally/vertically (`kASTableViewçellAnimationFlipHorizontally`)
+
+![flip animation](http://www.adamsuskin.com/wp-content/uploads/2015/11/Flip-Horizontally.gif)
 
 ## Requirements
 

@@ -57,7 +57,7 @@
         [cell setBackgroundColor:[UIColor darkGrayColor]];
     
     //Adding the cell's animations
-    [cell addAnimation:kASTableViewCellAnimationFlipHorizontally|kASTableViewCellAnimationFadeIn];
+    [cell addAnimation:kASTableViewCellAnimationFlipHorizontally];
     
     return cell;
 }
