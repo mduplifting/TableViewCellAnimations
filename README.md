@@ -1,6 +1,5 @@
 # TableViewCellAnimations
 
-[![CI Status](http://img.shields.io/travis/Adam Suskin/TableViewCellAnimations.svg?style=flat)](https://travis-ci.org/Adam Suskin/TableViewCellAnimations)
 [![Version](https://img.shields.io/cocoapods/v/TableViewCellAnimations.svg?style=flat)](http://cocoapods.org/pods/TableViewCellAnimations)
 [![License](https://img.shields.io/cocoapods/l/TableViewCellAnimations.svg?style=flat)](http://cocoapods.org/pods/TableViewCellAnimations)
 [![Platform](https://img.shields.io/cocoapods/p/TableViewCellAnimations.svg?style=flat)](http://cocoapods.org/pods/TableViewCellAnimations)
