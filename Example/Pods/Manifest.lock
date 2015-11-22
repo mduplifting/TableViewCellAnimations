@@ -1,0 +1,14 @@
+PODS:
+  - TableViewCellAnimations (0.1.0)
+
+DEPENDENCIES:
+  - TableViewCellAnimations (from `../`)
+
+EXTERNAL SOURCES:
+  TableViewCellAnimations:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TableViewCellAnimations: 817ab559adbace5f504809f6cfc138b54d54daa9
+
+COCOAPODS: 0.39.0

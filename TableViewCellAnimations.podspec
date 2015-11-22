@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "TableViewCellAnimations"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TableViewCellAnimations."
+  s.summary          = "Basic animations for table view cells!"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+TableViewCellAnimations provides a subclass-able table view cell ASTableViewCell that can quickly be set to use provided animations on the cell's appearance in a table view! Available animations currently are:
+-Fade In
+-Slide In From Left/Right/Top/Bottom
+-Flip Horizontally/Vertically
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TableViewCellAnimations"
+  s.homepage         = "https://github.com/adamsuskin/TableViewCellAnimations"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Adam Suskin" => "adamsuskin@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TableViewCellAnimations.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Adam Suskin" => "adam@adamsuskin.com" }
+  s.source           = { :git => "https://github.com/adamsuskin/TableViewCellAnimations.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/theadamsuskin'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

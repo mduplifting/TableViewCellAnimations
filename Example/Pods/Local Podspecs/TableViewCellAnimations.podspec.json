@@ -1,0 +1,25 @@
+{
+  "name": "TableViewCellAnimations",
+  "version": "0.1.0",
+  "summary": "A short description of TableViewCellAnimations.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TableViewCellAnimations",
+  "license": "MIT",
+  "authors": {
+    "Adam Suskin": "adamsuskin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TableViewCellAnimations.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TableViewCellAnimations": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
