@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TableViewCellAnimations_Example', :exclusive => true do
+  pod "TableViewCellAnimations", :path => "../"
+end
+
+target 'TableViewCellAnimations_Tests', :exclusive => true do
+  pod "TableViewCellAnimations", :path => "../"
+
+  
+end
