@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		10A544408B3765C9201058C62658EDE4 /* Pods-TableViewCellAnimations_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE989F9CB870021119E525EFA6069FED /* Pods-TableViewCellAnimations_Tests-dummy.m */; };
 		4A71DD9AC125E4F0FC08BE360678B100 /* Pods-TableViewCellAnimations_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DEFF10932F819B37E58755179A2A9C /* Pods-TableViewCellAnimations_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66A020FD1C0245FE005650DB /* ASTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A020FB1C0245FE005650DB /* ASTableViewCell.h */; };
+		66A020FE1C0245FE005650DB /* ASTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A020FB1C0245FE005650DB /* ASTableViewCell.h */; };
+		66A020FF1C0245FE005650DB /* ASTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A020FB1C0245FE005650DB /* ASTableViewCell.h */; };
+		66A021001C0245FE005650DB /* ASTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A020FC1C0245FE005650DB /* ASTableViewCell.m */; };
+		66A021011C0245FE005650DB /* ASTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A020FC1C0245FE005650DB /* ASTableViewCell.m */; };
+		66A021021C0245FE005650DB /* ASTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A020FC1C0245FE005650DB /* ASTableViewCell.m */; };
+		66A021031C0245FE005650DB /* ASTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A020FC1C0245FE005650DB /* ASTableViewCell.m */; };
 		747BF92D57B808DA12C2872F82D88324 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		7C2B81EC17F532000A9570D1616070BF /* TableViewCellAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9093A0A7E7BC922C9853729CBB2A361 /* TableViewCellAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A766856C1FCCF57A267826AAD420000D /* TableViewCellAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14795A5D6CD993CDE30438C664CCCE20 /* TableViewCellAnimations-dummy.m */; };
@@ -16,7 +23,6 @@
 		CC9ADEC7D42E39902B4A42896F96DE55 /* Pods-TableViewCellAnimations_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6D53339CE7DBB3370E8ACA55F06DA9 /* Pods-TableViewCellAnimations_Example-dummy.m */; };
 		DB85701CB104BD4E55D1AF832803C6FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		E13C537BD62EE828A5D78937EC5260B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		EB14B96046EE1312796CF002AA3AFD93 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 982C0AB94EB3BFB583A6BE88F5069991 /* ReplaceMe.m */; };
 		F5336512DC5DFDCB91D456034FCAFCA6 /* Pods-TableViewCellAnimations_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 743946B01789CEAEFA76BDF6C6D25CA6 /* Pods-TableViewCellAnimations_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -58,12 +64,13 @@
 		472C7C617DE768359E6858F391D7F54B /* Pods-TableViewCellAnimations_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableViewCellAnimations_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		60F396D674652FC209103D8AB245B2D8 /* Pods-TableViewCellAnimations_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableViewCellAnimations_Tests-resources.sh"; sourceTree = "<group>"; };
 		631ADA44874E768A8ACAAB573B0A8EE2 /* TableViewCellAnimations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TableViewCellAnimations.modulemap; sourceTree = "<group>"; };
+		66A020FB1C0245FE005650DB /* ASTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTableViewCell.h; sourceTree = "<group>"; };
+		66A020FC1C0245FE005650DB /* ASTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTableViewCell.m; sourceTree = "<group>"; };
 		743946B01789CEAEFA76BDF6C6D25CA6 /* Pods-TableViewCellAnimations_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TableViewCellAnimations_Example-umbrella.h"; sourceTree = "<group>"; };
 		7755E6DB1190ACBA185B316FC580D6C9 /* Pods-TableViewCellAnimations_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableViewCellAnimations_Example-resources.sh"; sourceTree = "<group>"; };
 		8CDEF4C38C3178C4A7DB8F0A25CFF049 /* Pods_TableViewCellAnimations_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewCellAnimations_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBB089E99C0D2A0220353F334EAD26C /* TableViewCellAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableViewCellAnimations.xcconfig; sourceTree = "<group>"; };
 		90F3A2B66CF20FEFB466C5E883DF3687 /* Pods-TableViewCellAnimations_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableViewCellAnimations_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		982C0AB94EB3BFB583A6BE88F5069991 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		98478C1A9498C07F120F5C364A5587E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A55A0A06EDD4C687E85C846A14963C8 /* Pods-TableViewCellAnimations_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableViewCellAnimations_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A1F297038CDE368B1EA72F30E5A2057C /* Pods-TableViewCellAnimations_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableViewCellAnimations_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -217,7 +224,8 @@
 		B442DB8FC7AE15268391EE6BF234410D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				982C0AB94EB3BFB583A6BE88F5069991 /* ReplaceMe.m */,
+				66A020FB1C0245FE005650DB /* ASTableViewCell.h */,
+				66A020FC1C0245FE005650DB /* ASTableViewCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A020FF1C0245FE005650DB /* ASTableViewCell.h in Headers */,
 				7C2B81EC17F532000A9570D1616070BF /* TableViewCellAnimations-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +270,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A020FE1C0245FE005650DB /* ASTableViewCell.h in Headers */,
 				4A71DD9AC125E4F0FC08BE360678B100 /* Pods-TableViewCellAnimations_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +279,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A020FD1C0245FE005650DB /* ASTableViewCell.h in Headers */,
 				F5336512DC5DFDCB91D456034FCAFCA6 /* Pods-TableViewCellAnimations_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9ADEC7D42E39902B4A42896F96DE55 /* Pods-TableViewCellAnimations_Example-dummy.m in Sources */,
+				66A021001C0245FE005650DB /* ASTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +420,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB14B96046EE1312796CF002AA3AFD93 /* ReplaceMe.m in Sources */,
 				A766856C1FCCF57A267826AAD420000D /* TableViewCellAnimations-dummy.m in Sources */,
+				66A021021C0245FE005650DB /* ASTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A021031C0245FE005650DB /* ASTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10A544408B3765C9201058C62658EDE4 /* Pods-TableViewCellAnimations_Tests-dummy.m in Sources */,
+				66A021011C0245FE005650DB /* ASTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

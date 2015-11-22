@@ -7,7 +7,9 @@
 //
 
 @import UIKit;
+#import "ASTableViewCell.h"
 
-@interface ASViewController : UIViewController
+@interface ASViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
 
 @end
