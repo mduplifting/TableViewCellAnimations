@@ -26,6 +26,7 @@ Wherever you choose to have the table view's `delegate`, make sure your implemen
     }
 
 Make sure to actually call `animate` in your willDisplayCell:
+
     -(void)tableView:(UITableView *)tableView willDisplayCell:(nonnull UITableViewCell *)cell forRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
         [(ASTableViewCell *)cell animate];
     }
