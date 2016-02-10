@@ -62,13 +62,13 @@
     if(_animations&kASTableViewCellAnimationFadeIn)
         [[self layer] setOpacity:0];
     if(_animations&kASTableViewCellAnimationSlideFromLeft)
-        [[self layer] setTransform:CATransform3DTranslate(self.layer.transform, -20, 0, 0)];
-    if(_animations&kASTableViewCellAnimationSlideFromRight)
-        [[self layer] setTransform:CATransform3DTranslate(self.layer.transform, 20, 0, 0)];
-    if(_animations&kASTableViewCellAnimationSlideFromTop)
-        [[self layer] setTransform:CATransform3DTranslate(self.layer.transform, 0, -20, 0)];
-    if(_animations&kASTableViewCellAnimationSlideFromBottom)
-        [[self layer] setTransform:CATransform3DTranslate(self.layer.transform, 0, 20, 0)];
+		[[self layer] setTransform:CATransform3DTranslate(self.layer.transform, -self.bounds.size.width * 0.15f, 0, 0)];
+	if(_animations&kASTableViewCellAnimationSlideFromRight)
+		[[self layer] setTransform:CATransform3DTranslate(self.layer.transform, self.bounds.size.width * 0.15f, 0, 0)];
+	if(_animations&kASTableViewCellAnimationSlideFromTop)
+		[[self layer] setTransform:CATransform3DTranslate(self.layer.transform, 0, -self.bounds.size.height * 0.5f, 0)];
+	if(_animations&kASTableViewCellAnimationSlideFromBottom)
+		[[self layer] setTransform:CATransform3DTranslate(self.layer.transform, 0, self.bounds.size.height * 0.5f, 0)];
     if(_animations&kASTableViewCellAnimationFlipHorizontally)
         [[self layer] setTransform:CATransform3DRotate(self.layer.transform, M_PI, 0, 1, 0)];
     if(_animations&kASTableViewCellAnimationFlipVertically)
