@@ -27,9 +27,12 @@
     
     //Handle execution
     [UIView animateWithDuration:[self duration]
+                          delay:0
+                        options:UIViewAnimationOptionAllowUserInteraction
                      animations:^{
                          [self executeAnimations];
-                     }];
+                     }
+                     completion:nil];
 }
 
 -(BOOL)validateAnimation:(ASTableViewCellAnimation)animation {
